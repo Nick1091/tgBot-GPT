@@ -2,10 +2,13 @@
   "version": 2,
   "builds": [
     {
-      "use": "@vercel/node",
-      "docker": {
-        "enabled": true
-      }
+      "src": "Dockerfile",
+      "use": "@vercel/node"
     }
-  ]
+  ],
+  "settings": {
+    "docker": {
+      "enabled": true
+    }
+  }
 }
