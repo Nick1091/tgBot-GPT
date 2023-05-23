@@ -1,5 +1,7 @@
 # Базовый образ Node.js 14
-FROM node:16-alpine
+# FROM node:16-alpine
+
+FROM nick109119/tgbot:tag1
 
 WORKDIR /app
 
